@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="obs-dao" />
+        <module name="obs-department" />
+        <module name="obs-entities" />
+        <module name="obs-exams" />
+        <module name="obs-interfaces" />
+        <module name="obs-lectures" />
+        <module name="obs-personel" />
+        <module name="obs-student" />
+        <module name="obs-tanim" />
+        <module name="obs-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="obs" target="1.8" />
+      <module name="obs-dao" target="1.8" />
+      <module name="obs-department" target="1.8" />
+      <module name="obs-entities" target="1.8" />
+      <module name="obs-exams" target="1.8" />
+      <module name="obs-interfaces" target="1.8" />
+      <module name="obs-lectures" target="1.8" />
+      <module name="obs-personel" target="1.8" />
+      <module name="obs-services" target="1.8" />
+      <module name="obs-student" target="1.8" />
+      <module name="obs-tanim" target="1.8" />
+      <module name="obs-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

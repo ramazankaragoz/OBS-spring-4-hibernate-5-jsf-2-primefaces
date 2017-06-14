@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+<h2>Registration</h2>
+<a style="color: #FF0000" href="#{request.contextPath}/pages/login.jsf"> Login</a><br/><br/>
+<h:form>
+    #{userController.temp}
+    <table>
+        <tr>
+            <td>UserName <h:outputLabel value="(*)" style="color:#F00707;"/></td>
+            <td>
+                <h:inputText value="#{userController.userModel.login}" required="true" label="Login"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Password <h:outputLabel value="(*)" style="color:#F00707;"/></td>
+            <td>
+                <h:inputSecret value="#{userController.userModel.pwd}" label="Password" redisplay="true" required="true">
+                    <f:validateLength maximum="100"/>
+                </h:inputSecret>
+            </td>
+            <td>Confirm Password <h:outputLabel value="(*)" style="color:#F00707;"/></td>
+            <td>
+                <h:inputSecret value="#{userController.userModel.pwdConfirm}" redisplay="true" label="ConfPassword"
+                               required="true">
+                    <f:validateLength maximum="100"/>
+                </h:inputSecret>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>
+            </td>
+        </tr>
+        <tr>
+            <td><h:commandButton value="Validate" action="#{userController.register}"/></td>
+            <td><h:commandButton type="reset" value="Reset"/></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><h:messages id="messages"/></td>
+        </tr>
+    </table>
+</h:form>
+</body>
+</html>

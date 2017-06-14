@@ -1,0 +1,4 @@
+com\obs\interfaces\services\x.class
+com\obs\interfaces\entities\s.class
+com\obs\interfaces\entities\student\IStudent.class
+com\obs\interfaces\services\student\IStudentService.class

@@ -1,0 +1,3 @@
+com\obs\dao\config\test.class
+com\obs\dao\core\UserDao.class
+com\obs\dao\student\StudentDaoImp.class

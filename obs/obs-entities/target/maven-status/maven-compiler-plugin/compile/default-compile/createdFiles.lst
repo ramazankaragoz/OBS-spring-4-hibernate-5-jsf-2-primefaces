@@ -1,0 +1,13 @@
+com\obs\entities\exams\ExamImp.class
+com\obs\entities\department\DepartmentImp.class
+com\obs\entities\tanim\UlkeImp.class
+com\obs\entities\core\BaseEntity.class
+com\obs\entities\core\User.class
+com\obs\entities\tanim\IlceImp.class
+com\obs\entities\core\UserModel.class
+com\obs\entities\core\Role.class
+com\obs\entities\personel\PersonelImp.class
+com\obs\entities\lectures\LectureImp.class
+com\obs\entities\tanim\KimlikImp.class
+com\obs\entities\student\StudentImp.class
+com\obs\entities\tanim\IlImp.class

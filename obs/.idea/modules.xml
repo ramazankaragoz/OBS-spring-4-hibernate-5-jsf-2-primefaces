@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/obs.iml" filepath="$PROJECT_DIR$/obs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-dao/obs-dao.iml" filepath="$PROJECT_DIR$/obs-dao/obs-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-department/obs-department.iml" filepath="$PROJECT_DIR$/obs-services/obs-department/obs-department.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-entities/obs-entities.iml" filepath="$PROJECT_DIR$/obs-entities/obs-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-exams/obs-exams.iml" filepath="$PROJECT_DIR$/obs-services/obs-exams/obs-exams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-interfaces/obs-interfaces.iml" filepath="$PROJECT_DIR$/obs-interfaces/obs-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-lectures/obs-lectures.iml" filepath="$PROJECT_DIR$/obs-services/obs-lectures/obs-lectures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-personel/obs-personel.iml" filepath="$PROJECT_DIR$/obs-services/obs-personel/obs-personel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-services.iml" filepath="$PROJECT_DIR$/obs-services/obs-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-student/obs-student.iml" filepath="$PROJECT_DIR$/obs-services/obs-student/obs-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-services/obs-tanim/obs-tanim.iml" filepath="$PROJECT_DIR$/obs-services/obs-tanim/obs-tanim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-utils/obs-utils.iml" filepath="$PROJECT_DIR$/obs-utils/obs-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obs-web/obs-web.iml" filepath="$PROJECT_DIR$/obs-web/obs-web.iml" />
+    </modules>
+  </component>
+</project>
